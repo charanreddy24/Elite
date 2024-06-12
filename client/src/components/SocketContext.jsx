@@ -15,11 +15,14 @@ export const SocketContextProvider = ({ children }) => {
 
   useEffect(() => {
     if (currentUser) {
-      const socket = io('http://localhost:3000', {
-        query: {
-          userId: currentUser._id,
+      const socket = io(
+        'https://elite-residential-services-demo.onrender.com',
+        {
+          query: {
+            userId: currentUser._id,
+          },
         },
-      });
+      );
 
       setSocket(socket);
       socket.on('getOnlineUsers', (users) => {
