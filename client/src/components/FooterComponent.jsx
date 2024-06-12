@@ -53,7 +53,7 @@ export default function FooterComponent() {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright
               href="#"
-              by="Condo Pulse"
+              by="Elite Residential"
               year={new Date().getFullYear()}
             />
 
