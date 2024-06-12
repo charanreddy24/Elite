@@ -126,7 +126,7 @@ export default function IncidentReportModal({ cardsArray, setCardsArray }) {
           type="button"
           onClick={() => setShowModal(true)}
         >
-          <FaPenNib className="lg:text-xl sm:text-4xl " />
+          <FaPenNib className="text-xl" />
           Create an Incident Report
         </button>
       </div>

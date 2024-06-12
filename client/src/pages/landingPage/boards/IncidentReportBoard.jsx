@@ -244,7 +244,7 @@ const Card = ({
         layoutId={id}
         draggable="true"
         onDragStart={dragStartHandler}
-        className="cursor-grab border  rounded bg-gradient-to-r from-slate-600 via-slate-500 to-slate-400 outline outline-1 outline-gray-300 p-3 active:cursor-grabbing"
+        className="cursor-grab border rounded bg-gradient-to-r from-slate-600 via-slate-500 to-slate-400 outline outline-1 outline-gray-300 p-3 active:cursor-grabbing"
       >
         <Link
           className="font-medium dark:text-gray-900 text-white"
@@ -260,12 +260,12 @@ const Card = ({
             </p>
           </div>
         </Link>
-        <div className="flex items-center justify-between gap-1 text-sm text-white font-medium p-1">
-          <p className="">Logged by: {loggedBy}</p>
-          <p className="">Type of Incident: {incidentType}</p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-1 text-sm text-white font-medium p-1">
+          <p>Logged by: {loggedBy}</p>
+          <p>Type of Incident: {incidentType}</p>
         </div>
         <div className="text-sm text-white p-1">
-          <p className="">Logged on Date: {loggedDate}</p>
+          <p>Logged on Date: {loggedDate}</p>
         </div>
       </motion.div>
       <DropIndicator beforeId={id} column={column} />
