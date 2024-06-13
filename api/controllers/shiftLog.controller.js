@@ -64,6 +64,7 @@ export const createShift = async (req, res, next) => {
       async () => {
         shiftDetails.shiftActive = false;
         await shiftDetails.save();
+        console.log("shift active is set to false")
       },
     );
 
