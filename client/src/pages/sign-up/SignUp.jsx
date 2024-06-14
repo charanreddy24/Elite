@@ -44,7 +44,7 @@ export default function SignUp() {
         <div className="">
           <Link to="/" className="font-bold dark:text-white text-3xl">
             <span className="px-2 py-1 bg-gradient-to-r from-slate-800 via-slate-500 to-slate-400 rounded-lg text-white ">
-              Elite Logo & Company Name
+              Condominium Concierge Software
             </span>
           </Link>
           <p className="text-sm mt-5">

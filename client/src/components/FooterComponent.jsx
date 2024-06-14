@@ -16,7 +16,7 @@ export default function FooterComponent() {
               className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
             >
               <span className="px-2 py-1 bg-gradient-to-r from-slate-800 via-slate-500 to-slate-400 rounded-lg text-white">
-                Elite Logo & Company Name
+                Condominium Concierge Software
               </span>
             </Link>
           </div>
@@ -30,7 +30,7 @@ export default function FooterComponent() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Elite Logo & Company Name
+                Condominium Concierge Software
               </Footer.Link>
             </Footer.LinkGroup>
           </div>
@@ -53,7 +53,7 @@ export default function FooterComponent() {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright
               href="#"
-              by="Elite Residential"
+              by="Condo Pulse"
               year={new Date().getFullYear()}
             />
 

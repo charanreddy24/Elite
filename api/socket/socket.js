@@ -6,7 +6,7 @@ import cors from 'cors';
 const app = express();
 
 const corsOptions = {
-  origin: 'https://elite-residential-services-demo.onrender.com',
+  origin: 'https://condo-concierge.onrender.com',
   methods: ['GET', 'POST', 'PUT'],
   credentials: true,
 };
@@ -17,7 +17,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ['https://elite-residential-services-demo.onrender.com'],
+    origin: ['https://condo-concierge.onrender.com'],
     methods: ['GET', 'POST', 'PUT'],
   },
 });

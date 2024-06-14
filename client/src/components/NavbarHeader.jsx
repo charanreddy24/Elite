@@ -57,7 +57,7 @@ export default function NavbarHeader() {
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
         <span className="px-2 py-1 bg-gradient-to-r from-slate-800 via-slate-500 to-slate-400 rounded-lg text-white">
-          Elite Logo & Company Name
+          Condominium Concierge Software
         </span>
       </Link>
       {currentUser && (
