@@ -52,6 +52,18 @@ export default function SignIn() {
             </span>
           </Link>
           <p className="text-sm mt-5">Sign in with your email and password</p>
+          <p className="text-sm mt-5">
+            This is a developer's project,{' '}
+            <strong>if you want to explore the features,</strong>
+            <br />
+            please login with the below credentials
+          </p>
+          <p className="mt-5">
+            Email -<strong> admin@gmail.com</strong>
+          </p>
+          <p>
+            Password -<strong> 123456</strong>
+          </p>
         </div>
         <div className="w-1/3">
           <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
